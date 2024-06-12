@@ -1,0 +1,12 @@
+[package]
+name = "test1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+axum-template = "2.3.0"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_derive = "1.0.203"
+tera = "1.20.0"
+tokio = { version = "1.22.0", features = ["full"] }
